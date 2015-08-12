@@ -1,0 +1,64 @@
+#DivToolbarM
+{
+	width:100%; 
+	background:#57A700; 
+	border-left:#57A700 solid 1px;
+	border-right:#57A700 solid 1px;
+	border-bottom:#57A700 solid 1px;
+	line-height:22px;
+}
+.ToolbarM td :link          
+{
+    color: #fff;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration: none;   
+    cursor:pointer;
+}
+
+.ToolbarM td :visited       
+{
+    color: #fff;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration: none;    
+    cursor:pointer;
+}
+
+.ToolbarM td :active        
+{
+    background: #FAAC29;
+    color: #fff;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration: none;    
+    cursor:pointer;
+}
+.ToolbarM td :hover         
+{
+	background: #FAAC29;
+    color: #fff;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration:none;    
+    cursor:pointer;
+}
+.ToolbarM td :focus         
+{
+	background: #FAAC29;
+    color: #fff;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration:none;   
+    cursor:pointer;
+}
+
+.ToolbarM td
+{
+    color: silver;
+    font-family: segoe UI, tahoma, arial;
+    font-size:11px;
+    text-decoration:none;    
+    cursor:pointer;
+    padding-top: 2px;
+}
