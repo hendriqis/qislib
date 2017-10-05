@@ -69,7 +69,7 @@ function showDialogMember(ctrl)
 }
 
 // look up screen for kodepos
-function showDialogKodePos(ctrl)
+function ShowDialogKodePos(ctrl)
 {
 	_sd(urlbKodePos, ctrl);
 }
@@ -114,12 +114,6 @@ function ShowDialogStatusKawin(ctrl)
 function ShowDialogKewarganegaraan(ctrl)
 {
 	_sd(urlbKewarganegaraan, ctrl);
-}
-
-// look up screen for Master Kode Pos
-function ShowDialogKodePos(ctrl)
-{
-	_sd(urlbkodepos, ctrl);
 }
 
 //Instansi

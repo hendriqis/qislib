@@ -357,7 +357,7 @@ function ShowDialogMedisJM(ctrl)
 // look up screen for Master Kode Pos
 function ShowDialogKodePos(ctrl)
 {
-	_sd(urlbkodepos, ctrl);
+	_sd(urlbkodepos,ctrl);
 }
 
 // look up screen for Master SMF
@@ -687,6 +687,35 @@ function ShowDialogNoAnggota(ctrl,kdNI)
 function ShowDialogNoMembership(ctrl,kdNI)
 {
 	_sd(urlbanggotainstnomember+'?kdNI='+kdNI, ctrl);
+}
+
+// look up screen for Anggaran
+function ShowDialogAnggaran(ctrl)
+{
+	_sd(urlbAnggaran, ctrl);
+}
+
+//look up screen for No. Realisasi Anggaran 
+function ShowDialogNoRealisasiAnggaran(ctrl)
+{
+	_sd(urlbNoRealisasiAnggaran, ctrl);
+}
+
+//look up screen for Kode Unit Anggaran 
+function ShowDialogKodeUnit(ctrl)
+{
+	_sd(urlbKodeUnit, ctrl);
+}
+
+function showDialogPaketAnggaran(ctrl,pka)
+{
+	_sd(urlbPktAnggaran+'?pka='+pka, ctrl);
+}
+
+// look up screen for Propinsi
+function ShowDialogPropinsi(ctrl)
+{
+	_sd(urlbPropinsi, ctrl);
 }
 
 // main function
