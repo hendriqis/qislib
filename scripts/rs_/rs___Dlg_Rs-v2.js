@@ -718,6 +718,12 @@ function ShowDialogPropinsi(ctrl)
 	_sd(urlbPropinsi, ctrl);
 }
 
+// look up screen for Deposito
+function ShowDialogDeposito(ctrl)
+{
+	_sd(urlbDeposito, ctrl);
+}
+
 // main function
 function _sd(url,ctrl)
 {
