@@ -724,6 +724,12 @@ function ShowDialogDeposito(ctrl)
 	_sd(urlbDeposito, ctrl);
 }
 
+// look up screen for No. Seri Deposito
+function ShowDialogNoSeriDeposito(ctrl,bank)
+{
+	_sd(urlbNoSeriDeposito+'?bank='+bank, ctrl);
+}
+
 // main function
 function _sd(url,ctrl)
 {
