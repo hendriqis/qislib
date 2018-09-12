@@ -730,6 +730,18 @@ function ShowDialogNoSeriDeposito(ctrl,bank)
 	_sd(urlbNoSeriDeposito+'?bank='+bank, ctrl);
 }
 
+// look up screen for Master Group Billing
+function ShowDialogGroupBilling(ctrl)
+{
+	_sd(urlbGroupBilling,ctrl);
+}
+
+// look up screen for Standard Field
+function showDialogStdfielddt(ctrl)
+{
+	_sd(urlbStdfielddt,ctrl);
+}
+
 // main function
 function _sd(url,ctrl)
 {

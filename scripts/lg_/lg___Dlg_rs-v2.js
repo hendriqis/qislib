@@ -410,6 +410,24 @@ function ShowDialogFormula(ctrl)
 	_sd(urlbFormula, ctrl);
 }
 
+// look up screen for Penerimaan Konsinyasi
+function ShowDialogTrKonsinyasi(ctrl)
+{
+	_sd(urlbtrkonsinyasi, ctrl);
+}
+
+// look up screen for Pengembalian Konsinyasi
+function ShowDialogKembaliKonsinyasi(ctrl)
+{
+	_sd(urlbkonsinyasiback, ctrl);
+}
+
+// look up screen for Tukar Faktur Konsinyasi
+function ShowDialogTFKonsinyasi(ctrl)
+{
+	_sd(urlbtfkonsinyasi, ctrl);
+}
+
 // main function
 function _sd(url,ctrl)
 {

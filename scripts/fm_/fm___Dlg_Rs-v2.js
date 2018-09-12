@@ -758,6 +758,11 @@ function ShowDialogResepRd(ctrl)
 	_sd(urlbreseprd, ctrl);
 }
 
+function sDlgBrgBySubstitusi(ctrl,fi,gid,lid)
+{
+	_sd(urlbsubitem+'?kdb='+fi+'&kdg='+gid+'&kdl='+lid,ctrl)
+}
+
 
 // main function
 function _sd(url,ctrl)

@@ -186,6 +186,12 @@ function showDialogDefNeracaLR(ctrl)
 	_sd(urlbDefNeracaLR, ctrl);
 }
 
+function showDialogCashFlow(ctrl,CF)
+{
+	_sd(urlbCashFlow+'?CF='+CF, ctrl);
+}
+
+
 // main function
 function _sd(url,ctrl)
 {
