@@ -742,6 +742,12 @@ function showDialogStdfielddt(ctrl)
 	_sd(urlbStdfielddt,ctrl);
 }
 
+// look up screen for BPJS Class
+function ShowDialogStdFieldbpjs(ctrl,kdfield)
+{
+	_sd(urlbStdfield+'?kdfield='+kdfield, ctrl);
+}
+
 // main function
 function _sd(url,ctrl)
 {

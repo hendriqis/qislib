@@ -763,6 +763,13 @@ function sDlgBrgBySubstitusi(ctrl,fi,gid,lid)
 	_sd(urlbsubitem+'?kdb='+fi+'&kdg='+gid+'&kdl='+lid,ctrl)
 }
 
+// look up screen for Inventory Item konsinyasi
+function ShowDialogItemKonsinyasi(ctrl)
+{
+	retVal=_sd(urlbitemKonsinyasi, ctrl);
+}
+
+
 
 // main function
 function _sd(url,ctrl)
